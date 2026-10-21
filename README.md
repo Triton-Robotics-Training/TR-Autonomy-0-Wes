@@ -3,6 +3,27 @@ Setup guide for TR Autonomy recruits
 
 [![Autonomy Training Resources](https://img.shields.io/badge/CV-%20Training%20Resources-eac817?labelColor=2a77a2&style=for-the-badge)](https://github.com/Triton-Robotics-Training/TR-CV-0/blob/main/resources.md)
 
+## How to Work On and Submit This Assignment
+
+**Read this before you clone anything.** Do not push directly to this repository. All work happens in your own fork.
+
+1. Click "Fork" at the top right of this page, set the **Owner** to `Triton-Robotics-Training`, and name the fork so it's clearly yours, e.g. `TR-Autonomy-0-your-name`. (The screenshots below are from `TR-Autonomy-1`, but the steps are identical here.)
+
+   ![Creating a fork in the Triton-Robotics-Training organization](images/create-fork.png)
+
+2. **Clone *your fork*** (not this repo) and do all of your work there:
+   ```bash
+   git clone git@github.com:Triton-Robotics-Training/TR-Autonomy-0-your-name.git
+   ```
+3. **Commit and push your work to your fork** as you go. Everywhere below that says "commit/upload to this repo," it means your fork.
+4. **When you're done, open a pull request** from your fork back to `Triton-Robotics-Training/TR-Autonomy-0` `main`. Once your fork is ahead of the upstream repo, GitHub shows a **Contribute → Open pull request** button on your fork's front page:
+
+   ![Opening a pull request from your fork back to the upstream repo](images/open-pull-request.png)
+
+   That pull request is your submission. You do not need to do anything else to submit.
+
+If you can't fork into the org because you don't have access, ask an autonomy lead to add you to the GitHub organization.
+
 Congratulations and welcome to the Autonomy team! Before we can jump into coding, we need to setup our environment first.
 To run our code in TR, you need at least 2 things: **Ubuntu** and **ROS2**
 - **Ubuntu** is a Distro that runs on Linux, which is a type of Operating System.
@@ -74,4 +95,4 @@ If you can get a publisher and a talker running in terminal, congratulations! Yo
 - setting up your preferred IDE  
 
 More resources can be accessed by clicking the "CV Training Resources badge" at the top of the README to see the relevant chapters.
-**To complete this assignment, take a screenshot of ubuntu running, add it to this git repo, and commit+push it.**
+**To complete this assignment, take a screenshot of ubuntu running, add it to your fork, commit+push it, and open a pull request back to this repo.**
